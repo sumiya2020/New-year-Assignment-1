@@ -1,0 +1,367 @@
+/* universell style */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Merriweather;
+    margin-left: 140px;
+    margin-right: 140px;
+
+}
+
+span {
+    color: #FF0000;
+}
+
+.happy-new-year-img {
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background: (180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 50px;
+    /* margin:0px 20px; */
+    /* word-wrap: break-word */
+
+}
+
+.happy-new-year-title {
+
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 100px;
+
+}
+
+.happy-new-year-text {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+
+
+}
+
+/* here use main part */
+/* percentage div style in here */
+.percentage {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.percentage .percentage-header1 {
+
+    color: #FF0000;
+    font-size: 75px;
+    font-weight: 700;
+
+}
+
+/*  OUR HOLIDAY DEALS ARE BETTER */
+.percentage .percentage-header2 {
+
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/*   ALL CATEGORIES */
+.percentage .percentage-header3 {
+
+    color: #070211;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+/* here midnight-party style */
+.mid-night-party-img {
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 120px;
+    display: flex;
+
+}
+
+.mid-night-party-title {
+
+
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+
+}
+
+.mid-night-party-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+
+    padding: 16px 32px;
+    border: none;
+    background: #FF0000;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+
+/* Join part style */
+.join {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    padding-top: 30%;
+    margin-top: 120px;
+    margin-right: 140px;
+    border-radius: 16px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+}
+
+.btn-join {
+    padding: 16px 32px;
+    border: none;
+    background: #FF0000;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 24px;
+
+}
+/* new div best offer */
+.new-best-offer{
+    display: flex;
+    /* margin-top: 120px; */
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+.new-best-offer p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+}
+.coming-soon{
+    width: 33.3%;
+}
+.coming-soon-title{
+    font-size: 24px;
+ font-weight: 500;
+
+}
+.Coming-soon-text{
+
+ font-size: 48px;
+ font-weight: 900;
+ text-transform: capitalize;
+
+}
+
+/* here image part the dive of coming soon */
+.coming-soon-img{
+   border-radius: 9999px;
+   border: 15px #FF0000 solid;
+   width: 33.3%;
+}
+/* here twenty thousand twenty four part style */
+.twenty-four{
+    text-align: right;
+    width: 33.3%;
+}
+.twenty-four-number{
+     font-size: 48px;
+     font-weight: 700;
+     padding-bottom: 20px;
+   
+}
+
+/*what-is-functional part style start here  */
+
+.functional{
+    width: 100%;
+    height: 800px;
+    margin-top: 120px;
+    margin-right: 140px;
+   
+}
+.what-is-functional{
+    display: inline;
+    text-align: center;
+  
+}
+.functional-title{
+color: #070211;
+ font-size: 24px;
+ font-weight: 500;
+
+}
+.functional-holidays{
+
+ font-size: 72px;
+ font-weight: 900;
+
+
+}
+.functional-text{
+ color: rgba(7, 2, 17, 0.60);
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 32px;
+ padding-bottom: 20px;
+
+}
+.functional-holiday-img{
+    display: flex;
+    position: relative;
+}
+.functional-holidays-last-img{
+    position: absolute;
+
+}
+.functional-holidays-last-img img{
+    width: 100%;
+    height: 225px;
+    
+
+}
+/* here gifts style start */
+.gifts{
+    margin-top: 120px;
+    width: 100%;
+    height: 800px;
+}
+.images-part{
+    width: 100%;
+    height: 600px;
+    
+}
+.gifts-images-part img{
+
+height: 300px;
+}
+.gifts-images-part-one
+{
+    display: flex;
+}
+.gifts-images-part-two
+{
+    display: flex;
+}
+
+/* subscribe part style */
+.subscribe{
+    width: 100%;
+    height: 500px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 40px;
+  
+   
+}
+.subscribe-title{
+
+     color: #070211;
+     font-size: 48px;
+    
+     font-weight: 900;
+
+}
+.subscribe-text{
+    color: rgba(7, 2, 17, 0.60);
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 32px;
+}
+#gmail{
+    border: none;
+    font-size: 20px;
+}
+.sub-btn{
+
+     background-color: #FF0000;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+     border: none;
+     border-top-right-radius: 50px;
+     margin-left: 10px;
+     text-align: center;
+  
+     
+     
+
+}
+
+/* footer style here */
+
+footer{
+    width: 100%;
+     height: 600px;
+     background: #070211;
+     margin-top: 120px;
+     color: white;
+
+}
+.footer-first, .footer-second{
+   justify-content: space-between;
+    height: 200px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+    display: flex;
+    padding: 53px 92px;
+   
+}
+.footer-img{
+   
+ border-top:1px rgba(255, 255, 255, 0.15) solid ;
+ border-bottom: 1px rgba(255, 255, 255, 0.15) solid;
+ /* padding: 10px 33%; */
+ text-align: center;
+
+}
+
+
+ .footer-second{
+    
+ padding-top: 53px;
+    
+} 
+
+.btn-Unsubscribe{
+    
+     font-size: 24px;
+     font-weight: 500;
+     color: #f9f4f4;
+     background-color: black;
+   border: none;
+
+}
+
